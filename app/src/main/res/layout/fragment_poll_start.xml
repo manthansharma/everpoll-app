@@ -1,0 +1,94 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.manthansharma.everpoll.PollStartFragment">
+
+
+	<TextView
+		android:id="@+id/poll_name"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="34dp"
+		android:textAlignment="center"
+		android:textAllCaps="true"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="30sp" android:layout_alignParentTop="true"
+		android:layout_alignParentStart="true"/>
+	<TextView
+		android:id="@+id/poll_desc"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_below="@+id/poll_timestamp"
+		android:layout_marginTop="31dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:id="@+id/poll_timestamp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/poll_name"
+		android:layout_marginTop="5dp"
+		android:textAlignment="center"
+		android:textColor="@color/timestamp"
+		android:textSize="15sp"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="5dp"
+		android:layout_marginTop="133dp" android:layout_below="@+id/poll_desc"
+		android:layout_alignParentStart="true">
+		<TextView
+			android:id="@+id/poll_response"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.5"
+			android:textAlignment="center"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		<TextView
+			android:id="@+id/poll_question_count"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.5"
+			android:textAlignment="center"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/linearLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_alignParentStart="true" android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/poll_start_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:layout_marginRight="20dp"
+			android:layout_weight="0.5"
+			android:text="@string/poll_start_btn"/>
+
+		<Button
+			android:id="@+id/poll_quit_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:layout_marginLeft="20dp"
+			android:layout_weight="0.5"
+			android:text="@string/poll_quit_btn"/>
+	</LinearLayout>
+
+
+</RelativeLayout>

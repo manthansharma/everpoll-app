@@ -1,0 +1,52 @@
+<resources>
+	<string name="app_name">EverPoll</string>
+	<string name="logo_contentDes">Logo</string>
+
+	<!-- Strings related to login -->
+	<string name="prompt_name">Name</string>
+	<string name="prompt_email">Email</string>
+	<string name="prompt_password">Password</string>
+	<string name="action_login">Sign in</string>
+	<string name="action_login_short">Sign in</string>
+	<string name="action_login_link">Already a member? Login</string>
+	<string name="action_signup_link">No account yet? Create one</string>
+	<string name="action_signup_short">Create Account</string>
+	<string name="error_invalid_email">This email address is invalid</string>
+	<string name="error_invalid_password">This password is too short</string>
+	<string name="error_incorrect_password">This password is incorrect</string>
+	<string name="error_field_required">This field is required</string>
+
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+
+	<!-- Strings related to navigation menu -->
+	<string name="nav_public_poll">Public Poll</string>
+	<string name="nav_history">History</string>
+	<string name="nav_question_set">Question Set</string>
+	<string name="nav_feedback">Feedback</string>
+	<string name="nav_logout">Logout</string>
+
+
+	<string name="create_room_name">Name</string>
+	<string name="create_room_desc">Description</string>
+	<string name="create_room_question_set">Question Set</string>
+	<string name="create_room_btn">Create Room</string>
+
+
+	<string name="create_question_text">Question Text</string>
+	<string name="create_question_choice1">Choice 1</string>
+	<string name="create_question_choice2">Choice 2</string>
+	<string name="create_question_choice3">Choice 3</string>
+	<string name="create_question_choice4">Choice 4</string>
+	<string name="add_question">Add More Question</string>
+	<string name="save_set">Save</string>
+	<string name="create_question_choice">Choice</string>
+	<string name="title_activity_question_set">QuestionSetActivity</string>
+
+	<string name="poll_start_btn">Start</string>
+	<string name="poll_quit_btn">Quit</string>
+	<string name="poll_next_btn">Next</string>
+	<string name="poll_save_btn">Save</string>
+
+
+</resources>
